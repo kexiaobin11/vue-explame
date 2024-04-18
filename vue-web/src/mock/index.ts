@@ -1,5 +1,5 @@
 import Mock from 'mockjs'
-
+// 111
 Mock.setup({
     timeout:'200-600'
 })
@@ -479,7 +479,6 @@ Mock.mock('/api/user/login', 'post', (option) => {
             message: '成功'
         }
     }
-    if
     if (username === 'zhangsan' && password === 'yunzhi') {
         return {
             status: 0,
