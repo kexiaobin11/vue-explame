@@ -7,6 +7,7 @@ const technologyApi = {
 }
 
 class TechnologyService {
+    
     static getAll() {
         return request({
             url: technologyApi.getAll,

@@ -8,6 +8,7 @@ const loginApi = {
 
 class UserService {
     static postLogin(data: { username: string, password: string }) {
+        
         return request({
             url: loginApi.userLogin, method: 'POST', json: true, data
         }).then((res) => {
