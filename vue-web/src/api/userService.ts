@@ -13,7 +13,7 @@ class UserService {
             url: loginApi.userLogin, method: 'POST', json: true, data
         }).then((res) => {
             if (res.status === 200) {
-                return Promise.resolve(res)
+                return Promise.resolve(res);
             }
             return Promise.reject(res);
         })
