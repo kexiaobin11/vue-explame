@@ -469,6 +469,17 @@ Mock.mock('/api/user/login', 'post', (option) => {
             message: '成功'
         }
     }
+    if (username === 'admin' && password === 'yunzhi') {
+        return {
+            status: 200,
+            data: {
+                accessToken:'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IjIyODA1MjAxMjhAcXEuY29tIiwic3ViIjo5LCJpYXQiOjE2MjU4MzQ3MTksImV4cCI6MTYyODQyNjcxOX0.YQLVi-zw4XWQEd8Hy2YZGlFaqX8c7xyRPrYuxcFywFE'
+            },
+            success: true,
+            message: '成功'
+        }
+    }
+    if
     if (username === 'zhangsan' && password === 'yunzhi') {
         return {
             status: 0,
