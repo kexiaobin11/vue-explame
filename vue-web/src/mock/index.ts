@@ -1,5 +1,9 @@
 import Mock from 'mockjs'
+<<<<<<< HEAD
+//122
+=======
 // 111
+>>>>>>> origin/main
 Mock.setup({
     timeout:'200-600'
 })
